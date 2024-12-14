@@ -27,7 +27,7 @@ export default function HeaderTop() {
           </li>
           <li>
             <Link
-              href={"/about"}
+              href={"/blog"}
               className="hover:underline hover:underline-offset-4"
             >
               Blog
@@ -46,7 +46,7 @@ export default function HeaderTop() {
 
       {/* Icons Section */}
       <div className="Icons flex items-center gap-4 md:gap-6 flex-nowrap">
-        <Link href={"/"}>
+        <Link href={"/my-account"}>
           <img
             src="/images/4.png"
             alt="vector"
@@ -60,14 +60,14 @@ export default function HeaderTop() {
             className="h-4 md:w-6 md:h-6 hover:scale-110 transition-transform"
           />
         </Link>
-        <Link href={"/"}>
+        <Link href={"/single-product"}>
           <img
             src="/images/1.png"
             alt="Favourite"
             className="h-4 md:w-6 md:h-6 hover:scale-110 transition-transform"
           />
         </Link>
-        <Link href={"/"}>
+        <Link href={"/cart"}>
           <img
             src="/images/3.png"
             alt="cart"
