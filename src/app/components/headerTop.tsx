@@ -50,28 +50,28 @@ export default function HeaderTop() {
           <img
             src="/images/4.png"
             alt="vector"
-            className="h-4 md:w-6 md:h-6 hover:scale-110 transition-transform"
+            className="h-4 w-16 lg:w-6 lg:h-6 hover:scale-110 transition-transform"
           />
         </Link>
         <Link href={"/"}>
           <img
             src="/images/2.png"
             alt="search"
-            className="h-4 md:w-6 md:h-6 hover:scale-110 transition-transform"
+            className="h-4 w-16 lg:w-6 lg:h-6 hover:scale-110 transition-transform"
           />
         </Link>
         <Link href={"/single-product"}>
           <img
             src="/images/1.png"
             alt="Favourite"
-            className="h-4 md:w-6 md:h-6 hover:scale-110 transition-transform"
+            className="h-4 w-16 lg:w-6 lg:h-6 hover:scale-110 transition-transform"
           />
         </Link>
         <Link href={"/cart"}>
           <img
             src="/images/3.png"
             alt="cart"
-            className="h-4 md:w-6 md:h-6 hover:scale-110 transition-transform"
+            className="h-4 w-16 lg:w-6 lg:h-6 hover:scale-110 transition-transform"
           />
         </Link>
       </div>
